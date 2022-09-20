@@ -153,7 +153,7 @@ int bitXor(int x, int y) {
  *   Rating: 1
  */
 int tmin(void) {
-    int ans=1<<31;/*最小值除最高位为1外，其余位为0*/
+    int ans=1<<31;/*最小值除最高位为1外，其余位均为0*/
     return ans;
 }
 //2
